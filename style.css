@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+
+body {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+line-height: 1.3;
+margin: 0;
+background: #fff;
+color: #212121;
+}
+
+.banner {
+background: #101010;
+padding: 0 10%;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+box-shadow: 0 1px 0 hsla(0,3%,67%,.1), 0 2px 1px hsla(0,1%,71%,.1);
+font-size: 16px;
+}
+.banner h1 {
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Days One', sans-serif;
+    font-weight: normal;
+    display: inline;
+    float: left;
+    line-height: 2;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  width: 1600px;
+  margin: 0 auto;
+}
+nav li {
+  float: left;
+  margin: 0 1em 0 0;
+  line-height: 60px;
+}
+
+nav li a {
+     height: 65px;
+    padding: 1px 14px;
+    font-weight: bold;
+}
+nav li a:link, nav li a:visited {
+  text-decoration: none;
+  color: #c0c0c0;
+  display:block;
+}
+
+nav li a:hover{
+  background: #414141;
+    color:#FFFFFF;
+}
+.container {
+    width: 70%;
+    margin: 4em auto 0;
+    background: #fff;
+}
+
+.sidebar {
+  width: 33.333%;
+  padding: 4em;
+  box-sizing: border-box;
+float: left;
+}
+
+.sidebar h2 {
+    border-bottom: 1px dotted #bbb;
+}
+.sidebar h4 {
+    margin: 0 0 1em 0;
+}
+article {
+  width: 66.666%;
+      padding: 1em;
+      box-sizing: border-box;
+      float: left;
+      border-bottom: 1px dotted #bbb;
+      margin-bottom: 1em;
+
+}
+
+article h1 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+article h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.7em;
+  background: #E53935;
+  display: inline;
+  padding: 0.5em;
+  color: #fff;
+}
+.intro {
+
+}
+figure {
+  margin: 0;
+}
+
+figure img, .sidebar img, .more img {
+  max-width: 80%;
+  vertical-align: middle;
+}
+
+figcaption {
+  font-size: 0.66em;
+}
+
+blockquote {
+  width: 66%;
+margin: 1em auto;
+background: #ddd;
+padding: 1em;
+font-size: 1.33em;
+text-align: center;
+border-bottom: 1px solid #999;
+border-top: 1px solid #999;
+}
+
+footer {
+  background: #212121;
+  color: #fff;
+  height: 100px;
+  padding: 1em 10%;
+  clear:both;
+}
+
+.like_this {
+    clear: both;
+}
+
+.more_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more {
+width: 25%;
+margin: 0 1em;
+flex-grow: 1;
+}
+
+.author {
+  width: 75px;
+border-radius: 50%;
+border: 1px solid #bbb;
+vertical-align: middle;
+margin-right: 0.33em;
+}
+
+.social {
+margin: 1em 0;
+
+}
+
+.fa-twitter-square {
+  color: #6FAEDC;
+}
+
+.fa-facebook-square {
+  color: #4469AF;
+}
+
+.side_overlay {
+    position: relative;
+}
+
+.side_overlay h4 {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    /* right: 0; */
+    width: 70%;
+    background: rgba(255,255,255,0.5);
+    font-size: 1.6em;
+    padding: 9px;
+
+
+.clearfix {
+  clear: both;
+}
